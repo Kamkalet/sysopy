@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <dirent.h>
+
+int main( int argc, char *argv[] )
+{
+
+	if( argc != 3 ) { // check if user entered 2 arguments ( without main.o sciezki )
+		printf("\nInvalid number of arguments supplied!!!\n");
+		return 1;
+	}
+
+	struct dirent *pDirent;
+
+	DIR *pDir;
+
+	pDir = opendir(argv[1]);
+
+	if (pDir == NULL) {
+
+		printf ("Cannot open directory '%s'\n", argv[1]);
+		return 1;
+	}
+
+	while ((pDirent = readdir(pDir)) != NULL) {
+
+		printf ("[%s]\n", pDirent->d_name);
+
+	}
+
+	closedir (pDir);
+
+
+    printf("Hello world!\n");
+    return 0;
+}

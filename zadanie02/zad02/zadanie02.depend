@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1490478966 source:/home/kamil/zadanie02/main.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<limits.h>
+	<sys/stat.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/types.h>
+
+1490478966 source:/home/kamil/zadanie02/zad02/main.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<limits.h>
+	<sys/stat.h>
+	<errno.h>
+	<fcntl.h>
+	<sys/types.h>
+

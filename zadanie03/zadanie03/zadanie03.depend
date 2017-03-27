@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1490274325 source:/home/kamil/zadanie03/zadanie03/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+

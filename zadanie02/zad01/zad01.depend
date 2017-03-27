@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1490522811 source:/home/kamil/zadanie02/zad01/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+
